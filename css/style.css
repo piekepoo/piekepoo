@@ -1,0 +1,288 @@
+style.css
+
+
+/*Resets the browse's standard margins to 0*/
+html,body {
+    margin:0;
+    padding:0 0%;
+    background-color: #fff8d6;
+}
+
+/*FOR ALL PAGES*/
+
+h1, h2, h3, h4, h5, h6, a {
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #000000;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+header{
+  border-bottom: 2px solid #000;
+}
+
+main{
+  border-bottom: 2px solid #000;
+  padding-top: 3%;
+}
+
+/*Header*/
+h1{
+  justify-content:center;
+  width: 100%;  
+  font-size: 300%;
+  padding-top: 10%;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/*Contact*/
+h2{
+	text-transform: uppercase;
+	font-weight: 1000;
+  font-size: 200%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+h3{
+  font-weight: 1000;
+  font-size: 110%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  width: 100%;
+}
+
+/*Navigation*/
+nav{
+	text-transform: lowercase;
+	font-size: 150%;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+/*Links in nav*/
+nav a{
+  padding: 1%;
+  display: block;
+	text-decoration: none;
+}
+
+/*Adds effect when nav links are hovered*/
+nav a:hover, h1 a:hover{
+  transform: scale(1.1);
+  color: #3977d1;
+  text-decoration: none;
+ }
+
+img{
+  border: 5px double #000;
+  border-radius: 5%;
+}
+
+img:hover{
+  border-color: #3977d1;
+}
+
+li{
+  list-style-type: none;
+}
+
+/*Icons*/
+i{
+  padding: 2%;
+ }
+
+ /*Hover Icons colour change*/
+a i:hover { 
+   color: #3977d1;
+}
+
+/*Footer across all pages*/
+footer{
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  font-size: 1em;
+ }
+
+.text{
+font-size: 18px;
+}
+/*Active sheet display*/
+.active nav a{
+  text-decoration: none;
+}
+
+/*Active sheet display*/
+.active {
+  transform: scale(1.3);
+}
+
+h1 .active {
+  transform: scale(1.3);
+}
+
+.socialmedia{
+  width: 100%;
+  text-align: center;
+}
+
+/*ABOUT ME PAGE*/
+.aboutme li{
+  padding-bottom: 10%;
+}
+
+.aboutme p{
+   text-align: justify;
+}
+
+.aboutme img{
+ border-radius: 50%;
+}
+
+.aboutsocials h2{
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+.projects li{
+  display:inline-block;
+  width: 49%;
+  list-style-type: none;
+  padding: 1%;
+}
+
+.proj p{
+   text-align: justify;
+}
+
+@media all and (min-width:768px){
+
+main{
+  padding: 3% 20%;
+}
+
+h1{
+  text-align: right;
+  width: 50%;  
+  font-size: 250%;
+  padding-top: 8%;
+}
+
+nav{
+  justify-content: center;
+  padding-left: 3%;
+  padding-top: 7.5%;
+  width: 50%;
+  font-size: 150%;
+}
+
+/*Links in nav*/
+nav a{
+  padding: 3%;
+  display: inline-block;
+}
+
+i{
+  padding: 0.5% 1.5%;
+ }
+
+
+.projects li{
+  display:inline-block;
+  width: 31%;
+  list-style-type: none;
+  padding: 1%;
+}
+.projects main{
+  padding-top: 3%;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-bottom: 2%;
+}
+
+main .aboutme{
+  /*padding-top: 3%;*/
+  padding-right: 10%;
+  padding-left: 10%;
+  /*padding-bottom: 2%;*/
+}
+.aboutme li{
+    width: 100%;
+    padding-bottom: 0%;
+     vertical-align: top;
+}
+.aboutme img{
+ /*float: center;*/
+ border-radius: 50%;
+ height: 100%;
+}
+
+.aboutme .contained{
+  width: 100%;
+  vertical-align: top;
+  padding: 0px 35%;
+}
+
+.abouttext{
+  width: 100%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.contactpage li{
+  width: 49%;
+  display:inline-block;
+  padding: 2%;
+}
+
+main .contactpage{
+padding-right: 15%;
+padding-left: 15%;
+}
+
+main .proj{
+padding-right: 15%;
+padding-left: 15%;
+}
+
+main .proj h2{
+    width: 100%;
+    /*padding-bottom: 2%;*/
+}
+
+main .proj h3{
+    /*text-align: left;*/
+    padding-top: 2%;
+    width: 100%;
+}
+
+main .proj li{
+  display: inline-block;
+    width: 19%;
+    padding: 1%;
+}
+
+main .proj ul{
+  /*padding-top: 0px;*/
+  padding-right: 20%;
+   padding-left: 20%;
+   padding-bottom: 8%;
+}
+
+
+.proj .para{
+  padding-top: 3%;
+
+}

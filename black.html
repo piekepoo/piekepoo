@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<title>Pieke Heijmans</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1ab74fee92.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
+</head>
+
+<header>
+	<div class = "container">
+		<div class= "row justify-content-center">
+			<h1><a href="index.html">Pieke Heijmans</a></h1>
+			<nav>
+		<a href="aboutme.html">About Me</a>
+		<a href="black.html" class = "active">Projects</a>
+		<a href="contact.html">Contact</a>
+			</nav>
+		</div> 
+	</div>
+</header>
+
+<main>
+<div class="proj">
+	<div class="container">
+		<div class="row justify-content-center"> 
+			<ul>
+				<li>
+					<a href="shen.html">
+					<div id="menu" >
+        			<img id='menuShen' style="width: 100%; height: 100%" src="imgs/shenanigans.png" alt="Black Christmas" 
+onmouseover="onHoverShen();" onmouseout="offHoverShen();"/>
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="syn.html">
+					<div id="menu" >
+        			<img id='menuSyn' style="width: 100%; height: 100%" src="imgs/vinyl.png" alt="Synesthesia" 
+onmouseover="onHoverSyn();" onmouseout="offHoverSyn();"/>
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="asc.html">
+					<div id="menu" >
+        			<img id='menuAsc' style="width: 100%; height: 100%" src="imgs/ascii.png" alt="ASCII Radio" 
+onmouseover="onHoverAsc();" onmouseout="offHoverAsc();"/> 
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="seazo.html">
+					<div id="menu" >
+        			<img id='menuSea' style="width: 100%; height: 100%" src="imgs/seazo.png" alt="Seazo" 
+onmouseover="onHoverSea();" onmouseout="offHoverSea();"/>
+					</div>
+					</a>
+				</li>	
+				<li>
+					<a href="xyz.html">
+					<div id="menu" >
+        			<img id='menuXyz' style="width: 100%; height: 100%" src="imgs/xyz.png" alt="ASCII Radio" 
+onmouseover="onHoverXyz();" onmouseout="offHoverXyz();"/>
+					</div>
+					</a>
+				</li>			
+			</ul>
+
+
+
+			<h2>Black Christmas</h2><br><br>
+			<h3>w/ Jichen Wu and Esmée Stouten</h3>
+			<div class="para">
+			<h3>Summary</h3>
+			<p>If you could light up all streets in Leiden to increase happiness, would you? Black Christmas was a project hosted during the Media Technology Semester Project Exhibition in december 2018. The visitor could walk through the streets of a digital city, mapped on a screen. The city lights would shine brighter once the player walked on the streets, playing with the boundaries of increased happiness and destruction. Developed with programming language Python.</p>
+			<h3>Concept</h3>
+			<p>During the dark winter days, our city is illuminated by thousands of Christmas lights. The Christmas tree at Pieterskerk sparkles until Rapenburg. The lights on the Korevaarsbrug glare across the Nieuwe Rijn and all residents are feeling joyful in our installation, you could walk through the streets, lighting up the streets that you are on. For each street you walk through, the lights will level up, until the light has reached its maximum power. But, be careful, once a light gets too bright, it will be overpowered and burn! Would you like to maximize the light on the streets, and thus the happiness of people? Or will people be celebrating Christmas in the dark this year?</p>
+			<h3>Motivation</h3>
+			<p>An auto-regulated system is something that works on its own. However, we humans have a strong tendency to change systems by wanting to improve it. This leads to an important question: is it even needed to improve systems that are already working? When are we speaking of improvements and when do improvements get destructive? Where is the line between a system working just fine and a system needing help from outside? We feel like these questions are relevant for a lot of systems that touch upon contemporary topics. You can think of problems related to environment, economics and politics. All of these can be considered systems with subsystems that are auto-regulated, but may be altered by human behavior.</p>
+			<h3>Implementation</h3>
+			<p>For this project, we coded in Python. We used controllers that we connected to a computer so that the controllers could influence the program. We used an Arduino and had access to a hardware kit that we used to control the surrounding lights to influence the brightness of the environment, which was supposed to function as feedback to the visitors interacting with our installations. We used a cinema room to implement our scenario, used a screen as a projection space and had 4 chairs where people sat down with their controllers to play with the installation. We played Christmas music in the background using an iPad  and decorated the room with Christmas decorations. Outside, we put a table with basic instructions and a short motivation about our project for people to read.</p>
+			</div>
+		</div>
+		</div>
+	</div>	
+<br>
+
+</main>
+<div class ="aboutsocials">
+<div class = "container">
+	<div class= "row justify-content-center">
+	<h2> Contact </h2>
+		<div class = "socialmedia">
+		<a href="mailto: piekeheijmans@gmail.com" target="_blank"> <i class="fas fa-envelope fa-2x"></i></a>
+		<a href="https://www.instagram.com/piekepoo/" target="_blank"> <i class="fab fa-instagram-square fa-2x"></i></a>
+		<a href="https://www.facebook.com/pieke.heijmans" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+		<a href="https://www.linkedin.com/in/pieke-heijmans-042733152/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+		</div>
+	</div> 
+</div>
+</div>
+<br><br>
+
+
+<footer>
+		<div class="container">
+		<div class="row justify-content-center"> 
+			<p id ='copyright'> &copy;2020 Pieke Heijmans</p>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
